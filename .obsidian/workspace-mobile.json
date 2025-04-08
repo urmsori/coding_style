@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "MD Coding Style"
             }
+          },
+          {
+            "id": "31426259fb8ad09e",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "c/fsw/example/test.c"
+              },
+              "icon": "lucide-file",
+              "title": "test"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,15 +191,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "vscode-editor:Create Code File": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79770442df949677",
+  "active": "31426259fb8ad09e",
   "lastOpenFiles": [
-    "README.md",
-    "md/MD Coding Style.md",
-    "c/fsw/FSW C Coding Style.md",
     "c/C Coding Style.md",
+    "c/fsw/example/test.c",
+    "md/MD Coding Style.md",
+    "c/fsw/example/Untitled.md",
+    "c/fsw/example",
+    "README.md",
+    "c/fsw/FSW C Coding Style.md",
     "c/fsw",
     "c",
     "md"
