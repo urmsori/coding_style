@@ -1,4 +1,4 @@
-# Urmsori Coding Style
+# Coding Style
 ## Directory Hierarchy
 1. Directory 이름은 snake_case를 사용한다
 2. 하나의 Directory 내 같은 레벨의 Directory는 하나의 규칙을 가진다
