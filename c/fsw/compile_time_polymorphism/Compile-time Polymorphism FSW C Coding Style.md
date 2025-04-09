@@ -22,24 +22,22 @@
     *   {component}_{variant}.c: {component}.h 함수의 해당 Variant 특화 구현. 핵심 구현부.
     *   {component}_{variant}.h: (선택 사항) 해당 Variant 전용 추가 인터페이스 선언.
 
-```plantuml
-@startwbs
-* component
-** component.h
-** component.c
-** define
-*** a
-**** component_define.h
-*** b
-**** component_define.h
-** variant
-*** a
-**** component_a.h
-**** component_a.c
-*** b
-**** component_b.h
-**** component_b.c
-@endwbs
+```mermaid
+graph TD
+    A[component] --> B[component.h]
+    A --> C[component.c]
+    A --> D[define]
+    D --> E[a]
+    E --> F[component_define.h]
+    D --> G[b]
+    G --> H[component_define.h]
+    A --> I[variant]
+    I --> J[a]
+    J --> K[component_a.h]
+    J --> L[component_a.c]
+    I --> M[b]
+    M --> N[component_b.h]
+    M --> O[component_b.c]
 ```
 
 ## 핵심 의존성 규칙 (#include)
