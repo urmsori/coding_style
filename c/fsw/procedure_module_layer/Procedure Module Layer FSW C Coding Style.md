@@ -22,6 +22,8 @@ graph TD
     F --> G[register]
     A --> H[m0]
     H --> I[memory]
+    
+    B -.-> D -.-> F -.-> H
 ```
 
 ## 3. 계층 간 의존성 규칙
