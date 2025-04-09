@@ -54,13 +54,12 @@ graph TD
 *   variant/{variant}/{component}_{variant}.c:
     *   {component}.h 또는 {component}_{variant}.h 포함.
 
-```
-@startuml
-component.h <|.. component.c
-component_define.h *-- component.h
-component.h <|-- component_a.h
-component_a.h <|.. component_a.c
-@enduml
+```mermaid
+classDiagram
+    component_define_h --|> component_h : 구성
+    component_h <|.. component_c : 구현
+    component_h <|-- component_a_h : 상속
+    component_a_h <|.. component_a_c : 구현
 ```
 
 ## 빌드 시스템 필수 요구사항
