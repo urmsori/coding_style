@@ -12,6 +12,20 @@
     *   모듈 (m0, m1, m2, ...): 하위 레벨 기능, 데이터, 추상화 담당. Bottom-up 구성 (m0 최하위).
 *   폴더 구조: 각 계층(p0, m1 등)은 자체 폴더를 가짐.
 
+```plantuml
+@startwbs
+* source
+** p0
+*** main
+** p1
+*** init
+** m1
+*** register
+** m0
+*** memory
+@endwbs
+```
+
 ## 3. 계층 간 의존성 규칙
 
 *   프로시저 간: pX는 pY (단, Y > X) 참조 가능.
