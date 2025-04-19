@@ -1,12 +1,12 @@
 #ifndef _COMPONENT_H_
 #define _COMPONENT_H_
 
-#if (_COMPONENT_ == A)
+#if (_COMPILE_COMPONENT_ == a)
 #include <component/define/component_define.h>
-#elseif (_COMPONENT_ == A)
+#elseif (_COMPILE_COMPONENT_ == b)
 #include <component/define/component_define.h>
 #else
-#error "_COMPONENT_ undefinded"
+#error "_COMPILE_COMPONENT_ undefinded"
 #endif
 
 #include <stdint.h>
