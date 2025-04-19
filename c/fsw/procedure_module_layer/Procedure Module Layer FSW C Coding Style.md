@@ -1,4 +1,4 @@
-# Procedure Module
+# C Procedure Module Layer
 ## 목적
 
 *   프로시저(p)와 모듈(m) 계층 구조를 정의하고, 계층 간 의존성 규칙 및 네이밍 컨벤션을 명확히 함.

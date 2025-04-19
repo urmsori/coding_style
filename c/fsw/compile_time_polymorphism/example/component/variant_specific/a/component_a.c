@@ -1,4 +1,4 @@
-#include "component/variant/a/component_a.h"
+#include "component/variant_specific/a/component_a.h"
 
 void component_write(uint8_t data[COMPONENT_WRITE_DATA_SIZE_MAX]){
     // Implementation of component_write with a
