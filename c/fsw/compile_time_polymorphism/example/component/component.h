@@ -1,12 +1,12 @@
 #ifndef _COMPONENT_H_
 #define _COMPONENT_H_
 
-#if (_COMPONENT_VARIANT_ == a)
-#include <component/variant_define/component_define.h>
-#elseif (_COMPONENT_VARIANT_ == b)
-#include <component/variant_define/component_define.h>
+#if (_VARIANT_COMPONENT_ == a)
+#include <component/variant_define/a/component_define.h>
+#elseif (_VARIANT_COMPONENT_ == b)
+#include <component/variant_define/b/component_define.h>
 #else
-#error "_COMPONENT_VARIANT_ undefinded"
+#error "_VARIANT_COMPONENT_ undefinded"
 #endif
 
 #include <stdint.h>
