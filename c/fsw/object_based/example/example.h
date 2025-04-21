@@ -1,6 +1,6 @@
 // Header guard
-#ifndef _EXAMPLE_H_
-#define _EXAMPLE_H_
+#ifndef EXAMPLE_H
+#define EXAMPLE_H
 
 // Standard Types - <stdint.h>, <stdbool.h>
 #include <stdbool.h>
@@ -59,4 +59,4 @@ extern "C"
 #endif
 
 // Header guard
-#endif // _EXAMPLE_H_
+#endif // EXAMPLE_H
