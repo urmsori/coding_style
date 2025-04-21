@@ -1,8 +1,8 @@
-#ifndef _COMPONENT_A_H_
-#define _COMPONENT_A_H_
+#ifndef COMPONENT_A_H
+#define COMPONENT_A_H
 
 #include <component/component.h>
 
 void component_a_reset(void);
 
-#endif // _COMPONENT_A_H_
+#endif // COMPONENT_A_H
