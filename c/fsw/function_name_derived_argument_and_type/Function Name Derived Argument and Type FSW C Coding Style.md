@@ -29,7 +29,7 @@ typedef int8_t <함수명>_result_t;
 인자는 다음 순서를 따름:
 1. 인스턴스/디스크립터 (필요시)
 2. 함수별 파라미터 (함수명에서 유도)
-3. 옵션 구조체 (필요시): `struct <함수명>_options`
+3. 옵션 구조체 (필요시): `const struct <함수명>_options *`
 
 ### 5. 옵션 구조체
 선택적 파라미터용:
@@ -63,7 +63,7 @@ xx_write_data_result_t xx_write_data(
     xx_id_t id,           // 인스턴스 식별자
     uint8_t *data,        // 함수명에서 유도
     uint32_t data_size,   // 함수명에서 유도
-    struct xx_write_data_options options  // 선택적 파라미터
+    const struct xx_write_data_options* options  // 선택적 파라미터
 );
 ```
 
