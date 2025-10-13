@@ -6,7 +6,7 @@
 #include COMPONENT_VARIANT_DEFINE_HEADER
 #endif
 
-// if not -std=gnu2x
+// if not C23
 // #if (VARIANT_COMPONENT == a)
 // #include <component/variant_define/a/component_define.h>
 // #elif (VARIANT_COMPONENT == b)
