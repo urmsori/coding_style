@@ -1,7 +1,8 @@
+#include <component/component.h>
+#ifdef COMPONENT_H
+
 #ifndef COMPONENT_VARIANT_SPECIFIC_H_
 #define COMPONENT_VARIANT_SPECIFIC_H_
-
-#include <component/component.h>
 
 #ifdef __cplusplus
 extern "C"
@@ -15,3 +16,5 @@ extern "C"
 #endif
 
 #endif // COMPONENT_VARIANT_SPECIFIC_H_
+
+#endif // COMPONENT_H
