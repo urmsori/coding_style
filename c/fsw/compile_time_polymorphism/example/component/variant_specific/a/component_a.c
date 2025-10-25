@@ -1,4 +1,5 @@
 #include "component/variant_specific/a/component_a.h"
+#include "component/variant_specific/component_variant_specific.h"
 #ifdef COMPONENT_A_H
 
 void component_write(uint8_t data[COMPONENT_WRITE_DATA_SIZE_MAX]){
@@ -8,6 +9,10 @@ void component_write(uint8_t data[COMPONENT_WRITE_DATA_SIZE_MAX]){
 
 void component_a_reset(void){
     // Implementation of a-specific function
+}
+
+void component_reset(void){
+    component_a_reset();
 }
 
 #endif
