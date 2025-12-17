@@ -47,7 +47,8 @@ uint32_t example_get_total_data_size(example_id_t id)
 
 bool example_get_data(example_id_t id, struct example_data data_out[EXAMPLE_DATA_COUNT_MAX])
 {
-    if (!example_is_valid_id(id) || !example_contexts[id].initialized)
+    bool is_valid_id = example_is_valid_id(id);
+    if (!is_valid_id || !example_contexts[id].initialized)
     {
         return false;
     }
